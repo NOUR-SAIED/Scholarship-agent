@@ -1,0 +1,11 @@
+{
+  "name": "Ahmed Ben Ali",
+  "nationality": "Tunisian",
+  "current_degree": "Bachelor",
+  "field": "Computer Science",
+  "gpa": "15",
+  "languages": ["Arabic", "French", "English"],
+  "target_degrees": ["Masters", "Alternance", "Apprenticeship"],
+  "countries": ["France", "Germany", "Europe", "Canada", "Turkey", "Hungary"],
+  "notes": "Interested in fully funded opportunities abroad. Open to all fields related to Computer Science, Data Science, and Software Engineering. Available from September 2025."
+}
