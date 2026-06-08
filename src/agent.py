@@ -138,32 +138,19 @@ def fetch_all_sources() -> list[dict]:
 
 # ── Pre-filter (fast, no API call) ────────────────────────────────────────────
 def pre_filter(opportunity: dict, profile: dict) -> tuple[bool, str]:
-    """
-    Quick rule-based filter before sending to AI.
-    Returns (pass, reason).
-    """
     text = opportunity["raw_text"]
 
-    # Must mention funding (at least somewhat)
-    has_funding = any(kw in text for kw in FUNDED_KEYWORDS)
-
-    # Should not explicitly say unfunded
-    has_unfunded = any(kw in text for kw in UNFUNDED_KEYWORDS)
-    if has_unfunded:
+    # Still block explicitly unfunded ones
+    if any(kw in text for kw in UNFUNDED_KEYWORDS):
         return False, "Mentions partial/no funding"
 
-    # Check if nationality is mentioned negatively
-    if "not eligible" in text and "tunisia" in text:
-        return False, "Tunisia explicitly excluded"
+    # Allow anything that mentions "scholarship" or "fellowship"
+    if "scholarship" in text or "fellowship" in text:
+        return True, "Passes relaxed filter"
 
-    # Check for target degree types
-    target_types = [t.lower() for t in profile["target_degrees"]]
-    type_match = any(t in text for t in target_types)
+    # Otherwise, let it through anyway for testing
+    return True, "Passes relaxed filter"
 
-    if not type_match:
-        return False, "Degree type not mentioned"
-
-    return True, "Passes pre-filter"
 
 # ── Gemini AI filter ───────────────────────────────────────────────────────────
 def filter_with_gemini(opportunity: dict, profile: dict, api_key: str) -> dict:
