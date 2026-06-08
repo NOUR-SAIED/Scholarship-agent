@@ -10,8 +10,8 @@ on:
     inputs:
       force_all:
         description: "Re-check all sources (ignore seen IDs)"
-        required: false
-        default: "false"
+        required: true
+        default: "true"
 
 jobs:
   scan:
