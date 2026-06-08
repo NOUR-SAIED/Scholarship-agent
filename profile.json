@@ -1,0 +1,42 @@
+{
+  "name": "Nourelhouda Saied",
+  "nationality": "Tunisian",
+  "current_degree": "Engineering Degree",
+  "field": "Data Engineering and Artificial Intelligence",
+  "gpa": "",
+  "languages": ["Arabic", "French", "English", "German (Beginner)"],
+  "target_degrees": ["Master's", "Alternance", "Apprenticeship"],
+  "countries": ["France", "Germany", "Canada", "Belgium", "Netherlands", "Sweden", "Finland", "Austria", "Hungary", "Turkey"],
+  "technical_skills": [
+    "Python",
+    "SQL",
+    "Scala",
+    "Apache Spark",
+    "Airflow",
+    "dbt",
+    "Databricks",
+    "Machine Learning",
+    "NLP",
+    "Large Language Models",
+    "LangChain",
+    "RAG Systems",
+    "Docker",
+    "MLflow"
+  ],
+  "interests": [
+    "Data Engineering",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Science",
+    "Analytics",
+    "Cloud Data Platforms",
+    "Software Engineering"
+  ],
+  "experience": [
+    "Built a RAG-based knowledge assistant using Confluence data",
+    "Designed ETL pipelines and data processing workflows",
+    "Developed exchange rate forecasting models using SARIMA and XGBoost",
+    "Created speaker recognition systems using Deep Learning"
+  ],
+  "notes": "Seeking Master's programs, alternance opportunities, apprenticeships, and fully funded scholarships abroad. Interested in Data Engineering, AI, Machine Learning, Data Science, Analytics, and Software Engineering. Available after graduation. Open to opportunities across Europe and Canada."
+}
