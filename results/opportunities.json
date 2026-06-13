@@ -498,5 +498,45 @@
     "country": null,
     "funding_type": "Fully Funded",
     "checked_at": "2026-06-12T11:38:48.211587"
+  },
+  {
+    "id": "6793813741c1",
+    "title": "The One Young World Leading Scholarship Program 2026 for emerging Young Leaders (Fully Funded to One Young World Summit in CapeTown, South Africa.)",
+    "link": "https://www.opportunitiesforafricans.com/the-one-young-world-leading-scholarship-program-2026/",
+    "summary": "Application Deadline: October 31st, 2026 Applications are now open for the 2026 One Young World Leading Scholarship Program. The Leading Scholarship is designed specifically to identify and support outstanding young…",
+    "published": "Fri, 12 Jun 2026 12:19:58 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "the one young world leading scholarship program 2026 for emerging young leaders (fully funded to one young world summit in capetown, south africa.) application deadline: october 31st, 2026 applications are now open for the 2026 one young world leading scholarship program. the leading scholarship is designed specifically to identify and support outstanding young&#8230;",
+    "eligible": false,
+    "score": 80,
+    "reason": "Rule-based: Missing:   degree type",
+    "highlights": [
+      "Fully funded",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Fully Funded",
+    "checked_at": "2026-06-13T10:25:38.987174"
+  },
+  {
+    "id": "dc3d68da32c2",
+    "title": "USA Bright Futures Scholarship 2026-27 in UK",
+    "link": "https://www.opportunitiescircle.com/usa-bright-futures-scholarship/",
+    "summary": "The USA Bright Futures Scholarship 2026-27 is a merit-based international scholarship in UK offered by London Metropolitan University for outstanding students from the United States. This funded scholarship program supports new international fee-paying students who want to start undergraduate or postgraduate studies in the UK for the 2026/27 academic year.  This study in UK scholarship is part of the university’s International Scholarships package and […]\nThe post USA Bright Futures Scholarship 2026-27 in UK appeared first on Opportunities Circle.",
+    "published": "Fri, 12 Jun 2026 13:00:59 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "usa bright futures scholarship 2026-27 in uk <p>the usa bright futures scholarship 2026-27 is a merit-based international scholarship in uk offered by london metropolitan university for outstanding students from the united states. this funded scholarship program supports new international fee-paying students who want to start undergraduate or postgraduate studies in the uk for the 2026/27 academic year.  this study in uk scholarship is part of the university’s international scholarships package and [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/usa-bright-futures-scholarship/\">usa bright futures scholarship 2026-27 in uk</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 0,
+    "reason": "Rule-based: Missing: nationality funding degree type",
+    "highlights": [
+      "Check funding",
+      ""
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-06-13T10:25:39.625347"
   }
 ]
