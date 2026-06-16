@@ -658,5 +658,25 @@
     "country": null,
     "funding_type": "Unknown",
     "checked_at": "2026-06-15T13:48:53.230389"
+  },
+  {
+    "id": "be63bed5929b",
+    "title": "SheConnects Digital Accelerator Program 2026 for high-impact solutions ($500,000 in Grants)",
+    "link": "https://www.opportunitiesforafricans.com/sheconnects-digital-accelerator-program-2026/",
+    "summary": "Application Deadline: July 8, 2026 Applications are now open for the 2026 SheConnects Digital Accelerator Program. The SheConnects Digital Accelerator: Africa aims to scale proven, high-impact solutions that enable women…",
+    "published": "Mon, 15 Jun 2026 16:54:55 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "sheconnects digital accelerator program 2026 for high-impact solutions ($500,000 in grants) application deadline: july 8, 2026 applications are now open for the 2026 sheconnects digital accelerator program. the sheconnects digital accelerator: africa aims to scale proven, high-impact solutions that enable women&#8230;",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-06-16T12:48:02.814698"
   }
 ]
