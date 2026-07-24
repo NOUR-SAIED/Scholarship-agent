@@ -3418,5 +3418,45 @@
     "country": null,
     "funding_type": "Unknown",
     "checked_at": "2026-07-23T10:13:35.128757"
+  },
+  {
+    "id": "340b2a67c0c9",
+    "title": "The Pulitzer Center Africa Education Teachers’ Fellowship 2026 for African educators (Monthly Stipend)",
+    "link": "https://www.opportunitiesforafricans.com/the-pulitzer-center-africa-education-teachers-fellowship-2026/",
+    "summary": "Application Deadline: August 10, 2026 Applications are now open for the 2026 Pulitzer Center Africa Education Teachers’ Fellowship. The Africa Education Teachers’ Fellowship is a six-month hybrid professional development program…",
+    "published": "Thu, 23 Jul 2026 16:01:30 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "the pulitzer center africa education teachers’ fellowship 2026 for african educators (monthly stipend) application deadline: august 10, 2026 applications are now open for the 2026 pulitzer center africa education teachers’ fellowship. the africa education teachers&#8217; fellowship is a six-month hybrid professional development program&#8230;",
+    "eligible": false,
+    "score": 80,
+    "reason": "Rule-based: Missing:   degree type",
+    "highlights": [
+      "Fully funded",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Fully Funded",
+    "checked_at": "2026-07-24T10:09:47.645304"
+  },
+  {
+    "id": "1d0252c56d37",
+    "title": "The Tracka-BudgIT Governance for Women By Women Fellowship 2026 for emerging women leaders.",
+    "link": "https://www.opportunitiesforafricans.com/the-tracka-budgit-governance-for-women-by-women-fellowship-2026/",
+    "summary": "Application Deadline: 31 July 2026 Applications are now open for the Governance for Women By Women Fellowship, an initiative by Tracka and BudgIT designed to equip women with practical skills…",
+    "published": "Thu, 23 Jul 2026 11:59:10 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "the tracka-budgit governance for women by women fellowship 2026 for emerging women leaders. application deadline: 31 july 2026 applications are now open for the governance for women by women fellowship, an initiative by tracka and budgit designed to equip women with practical skills&#8230;",
+    "eligible": false,
+    "score": 0,
+    "reason": "Rule-based: Missing: nationality funding degree type",
+    "highlights": [
+      "Check funding",
+      ""
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-07-24T10:09:48.266883"
   }
 ]
