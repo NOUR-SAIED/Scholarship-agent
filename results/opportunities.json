@@ -3558,5 +3558,25 @@
     "country": null,
     "funding_type": "Fully Funded",
     "checked_at": "2026-07-26T09:52:17.116202"
+  },
+  {
+    "id": "6fea9d719915",
+    "title": "Boston University Presidential Scholarship 2026 in USA | Funded",
+    "link": "https://www.opportunitiescircle.com/boston-university-presidential-scholarship/",
+    "summary": "Are you looking for a high-value undergraduate scholarship in the USA? The Boston University Presidential Scholarship 2026 is an excellent opportunity for international students who want to study at one of the most prestigious universities in the United States. This funded scholarship in USA helps talented students from all over the world pursue their undergraduate degree at Boston […]\nThe post Boston University Presidential Scholarship 2026 in USA | Funded appeared first on Opportunities Circle.",
+    "published": "Sun, 26 Jul 2026 13:00:37 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "boston university presidential scholarship 2026 in usa | funded <p>are you looking for a high-value undergraduate scholarship in the usa? the boston university presidential scholarship 2026 is an excellent opportunity for international students who want to study at one of the most prestigious universities in the united states. this funded scholarship in usa helps talented students from all over the world pursue their undergraduate degree at boston [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/boston-university-presidential-scholarship/\">boston university presidential scholarship 2026 in usa | funded</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-07-27T11:12:28.259942"
   }
 ]
