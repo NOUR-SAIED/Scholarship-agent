@@ -3798,5 +3798,25 @@
     "country": null,
     "funding_type": "Unknown",
     "checked_at": "2026-07-30T10:16:20.959220"
+  },
+  {
+    "id": "46f2ac0b0b94",
+    "title": "Konrad Adenauer Foundation-SAIIA Scholarships 2027 for young South Africans.",
+    "link": "https://www.opportunitiesforafricans.com/konrad-adenauer-foundation-saiia-scholarships-2027-for-young-south-africans/",
+    "summary": "Application Deadline: 1 September 2026. Applications are now open for the 2027 Konrad Adenauer Foundation-SAIIA Scholarships. The Konrad-Adenauer-Stiftung (KAS) is a German political foundation named after the first chancellor of…",
+    "published": "Thu, 30 Jul 2026 17:48:07 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "konrad adenauer foundation-saiia scholarships 2027 for young south africans. application deadline: 1 september 2026. applications are now open for the 2027 konrad adenauer foundation-saiia scholarships. the konrad-adenauer-stiftung (kas) is a german political foundation named after the first chancellor of&#8230;",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-07-31T10:30:29.884712"
   }
 ]
