@@ -3938,5 +3938,65 @@
     "country": null,
     "funding_type": "Fully Funded",
     "checked_at": "2026-08-01T09:51:55.239480"
+  },
+  {
+    "id": "10beac0083b6",
+    "title": "The Commonwealth Startup Fellowship 2026/2027 for early stage start-ups (Fully Funded to Bootcamp in Accra, Ghana and Capstone Week in London, UK )",
+    "link": "https://www.opportunitiesforafricans.com/the-commonwealth-startup-fellowship-2026-2027/",
+    "summary": "Application Deadline: September 1st, 2026 Applications are now open for the 2026/2027 Commonwealth Startup Fellowship. Commonwealth Startup Fellowships run for six months and are designed to ignite and elevate high-potential…",
+    "published": "Mon, 03 Aug 2026 11:04:33 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "the commonwealth startup fellowship 2026/2027 for early stage start-ups (fully funded to bootcamp in accra, ghana and capstone week in london, uk ) application deadline: september 1st, 2026 applications are now open for the 2026/2027 commonwealth startup fellowship. commonwealth startup fellowships run for six months and are designed to ignite and elevate high-potential&#8230;",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing: nationality  degree type",
+    "highlights": [
+      "Fully funded",
+      ""
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Fully Funded",
+    "checked_at": "2026-08-03T11:14:52.929848"
+  },
+  {
+    "id": "f6746509dc59",
+    "title": "ICANN Fellowship Program 2027 in Portugal",
+    "link": "https://www.opportunitiescircle.com/icann-fellowship-program/",
+    "summary": "Are you interested in international fellowships? If yes, then the ICANN Fellowship Program 2027 in Portugal could be the one. The ICANN Fellowship Program in Portugal is designed to provide you with the technical operations of vital DNS resources. The goal of the international Fellowship Program is to strengthen the representation of the multistakeholder model by fostering opportunities for individuals from underserved and […]\nThe post ICANN Fellowship Program 2027 in Portugal appeared first on Opportunities Circle.",
+    "published": "Sun, 02 Aug 2026 16:00:17 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "icann fellowship program 2027 in portugal <p>are you interested in international fellowships? if yes, then the icann fellowship program 2027 in portugal could be the one. the icann fellowship program in portugal is designed to provide you with the technical operations of vital dns resources. the goal of the international fellowship program is to strengthen the representation of the multistakeholder model by fostering opportunities for individuals from underserved and [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/icann-fellowship-program/\">icann fellowship program 2027 in portugal</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 0,
+    "reason": "Rule-based: Missing: nationality funding degree type",
+    "highlights": [
+      "Check funding",
+      ""
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-03T11:14:53.557458"
+  },
+  {
+    "id": "5c201b26449d",
+    "title": "University of Western Australia RTP Scholarships 2027",
+    "link": "https://www.opportunitiescircle.com/university-of-western-australia-rtp-scholarships/",
+    "summary": "Are you a graduate and looking for a postgraduate scholarship to pursue your studies in Australia? Don’t worry. Applications are open for the University of Western Australia RTP Scholarships 2027 in Australia. It is an amazing research-based postgraduate scholarship. This international scholarship is open to international students from all over the world who want to pursue their Higher Degree by Research […]\nThe post University of Western Australia RTP Scholarships 2027 appeared first on Opportunities Circle.",
+    "published": "Sat, 01 Aug 2026 13:00:06 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "university of western australia rtp scholarships 2027 <p>are you a graduate and looking for a postgraduate scholarship to pursue your studies in australia? don’t worry. applications are open for the university of western australia rtp scholarships 2027 in australia. it is an amazing research-based postgraduate scholarship. this international scholarship is open to international students from all over the world who want to pursue their higher degree by research [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/university-of-western-australia-rtp-scholarships/\">university of western australia rtp scholarships 2027</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-03T11:14:54.188205"
   }
 ]
