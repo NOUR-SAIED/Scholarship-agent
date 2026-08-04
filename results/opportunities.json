@@ -3998,5 +3998,85 @@
     "country": null,
     "funding_type": "Unknown",
     "checked_at": "2026-08-03T11:14:54.188205"
+  },
+  {
+    "id": "ddeaf1a3c082",
+    "title": "DSTI-CSIR Inter-programme Bursary Scheme 2027 for young South African students.",
+    "link": "https://www.opportunitiesforafricans.com/dsti-csir-inter-programme-bursary-scheme-2027/",
+    "summary": "Application Deadline:  15 September 2026 Applications are now open for the 2027 DSTI-CSIR Inter-programme Bursary Scheme. The Inter-Programme Bursary Scheme (IBS), funded by the Department of Science, Technology and Innovation…",
+    "published": "Mon, 03 Aug 2026 01:11:00 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "dsti-csir inter-programme bursary scheme 2027 for young south african students. application deadline:  15 september 2026 applications are now open for the 2027 dsti-csir inter-programme bursary scheme. the inter-programme bursary scheme (ibs), funded by the department of science, technology and innovation&#8230;",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-04T10:29:36.012341"
+  },
+  {
+    "id": "4a3b3f846ef9",
+    "title": "The FRIAS Sustainable Governance Senior Fellowship Programme 2027/2028 for African Researchers.",
+    "link": "https://www.opportunitiesforafricans.com/the-frias-sustainable-governance-senior-fellowship-programme-2027-2028-for-african-researchers/",
+    "summary": "Application Deadline: : 18 September 2026, 13:00 CET Applications are now open for the 2027/2028 FRIAS Sustainable Governance Senior Fellowship Programme. The Freiburg Institute for Advanced Studies (FRIAS) invites researchers based in an…",
+    "published": "Sun, 02 Aug 2026 23:27:00 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "the frias sustainable governance senior fellowship programme 2027/2028 for african researchers. application deadline: : 18 september 2026, 13:00 cet applications are now open for the 2027/2028 frias sustainable governance senior fellowship programme. the freiburg institute for advanced studies (frias) invites researchers based in an&#8230;",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-04T10:29:36.651488"
+  },
+  {
+    "id": "7e7a866ac38b",
+    "title": "GovAI Research Fellowship 2026 in UK and USA | Paid",
+    "link": "https://www.opportunitiescircle.com/govai-research-fellowship/",
+    "summary": "Are you a researcher looking for an opportunity to shape the future of AI governance? If yes, then the GovAI Research Fellowship 2026 in UK and USA is an excellent opportunity for you. This international fellowship for researchers is designed for those who want to conduct independent research and help inform important decisions in government […]\nThe post GovAI Research Fellowship 2026 in UK and USA | Paid appeared first on Opportunities Circle.",
+    "published": "Mon, 03 Aug 2026 16:00:25 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "govai research fellowship 2026 in uk and usa | paid <p>are you a researcher looking for an opportunity to shape the future of ai governance? if yes, then the govai research fellowship 2026 in uk and usa is an excellent opportunity for you. this international fellowship for researchers is designed for those who want to conduct independent research and help inform important decisions in government [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/govai-research-fellowship/\">govai research fellowship 2026 in uk and usa | paid</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 0,
+    "reason": "Rule-based: Missing: nationality funding degree type",
+    "highlights": [
+      "Check funding",
+      ""
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-04T10:29:37.281993"
+  },
+  {
+    "id": "714a3314b3de",
+    "title": "University of Miami Stamps Scholarship 2026-27 in USA | Fully Funded",
+    "link": "https://www.opportunitiescircle.com/university-of-miami-stamps-scholarship/",
+    "summary": "Opportunities Circle is here with the University of Miami Stamps Scholarship in the USA. International students from around the world can apply for this fully funded undergraduate scholarship program in the USA. University of Miami Stamps scholarship will provide incredible benefits, including complete tuition fees, an entire meal plan, health insurance, textbooks, allowance for a […]\nThe post University of Miami Stamps Scholarship 2026-27 in USA | Fully Funded appeared first on Opportunities Circle.",
+    "published": "Mon, 03 Aug 2026 13:00:16 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "university of miami stamps scholarship 2026-27 in usa | fully funded <p>opportunities circle is here with the university of miami stamps scholarship in the usa. international students from around the world can apply for this fully funded undergraduate scholarship program in the usa. university of miami stamps scholarship will provide incredible benefits, including complete tuition fees, an entire meal plan, health insurance, textbooks, allowance for a [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/university-of-miami-stamps-scholarship/\">university of miami stamps scholarship 2026-27 in usa | fully funded</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 80,
+    "reason": "Rule-based: Missing:   degree type",
+    "highlights": [
+      "Fully funded",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Fully Funded",
+    "checked_at": "2026-08-04T10:29:37.906351"
   }
 ]
