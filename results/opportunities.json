@@ -5138,5 +5138,65 @@
     "country": null,
     "funding_type": "Unknown",
     "checked_at": "2026-08-16T08:19:21.859007"
+  },
+  {
+    "id": "8f97e6a037c9",
+    "title": "AAUW’s International Fellowship Program 2026/2027 for Masters, Doctoral & Post-Doctoral Study in the United States (Funded)",
+    "link": "https://www.opportunitiesforafricans.com/aauws-international-fellowship-program-2026-2027-for-masters-doctoral-post-doctoral-study-in-the-united-states/",
+    "summary": "Application Deadline: September 17, 2026, at 5:00pm ET Applications are now open for the 2026/2027 AAUW’s International Fellowship Program. AAUW’s International Fellowships promotes education and equity for women by investing…",
+    "published": "Mon, 17 Aug 2026 01:56:00 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "aauw’s international fellowship program 2026/2027 for masters, doctoral & post-doctoral study in the united states (funded) application deadline: september 17, 2026, at 5:00pm et applications are now open for the 2026/2027 aauw’s international fellowship program. aauw’s international fellowships promotes education and equity for women by investing&#8230;",
+    "eligible": false,
+    "score": 0,
+    "reason": "Rule-based: Missing: nationality funding degree type",
+    "highlights": [
+      "Check funding",
+      ""
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-17T08:34:07.675122"
+  },
+  {
+    "id": "df0d82a7f772",
+    "title": "McGraw Fellowship for Business Journalism 2026 in USA | Funding of $15,000",
+    "link": "https://www.opportunitiescircle.com/mcgraw-fellowship-for-business-journalism/",
+    "summary": "Good news for those looking for journalism fellowships! McGraw Fellowship for Business Journalism 2026 in USA is an excellent opportunity. This international fellowship is open to journalists, reporters as well as editors who are US citizens/residents or pay taxes in the US. The McGraw Fellowship offers both editorial and financial support to journalists who need time and resources […]\nThe post McGraw Fellowship for Business Journalism 2026 in USA | Funding of $15,000 appeared first on Opportunities Circle.",
+    "published": "Sun, 16 Aug 2026 16:00:46 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "mcgraw fellowship for business journalism 2026 in usa | funding of $15,000 <p>good news for those looking for journalism fellowships! mcgraw fellowship for business journalism 2026 in usa is an excellent opportunity. this international fellowship is open to journalists, reporters as well as editors who are us citizens/residents or pay taxes in the us. the mcgraw fellowship offers both editorial and financial support to journalists who need time and resources [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/mcgraw-fellowship-for-business-journalism/\">mcgraw fellowship for business journalism 2026 in usa | funding of $15,000</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 0,
+    "reason": "Rule-based: Missing: nationality funding degree type",
+    "highlights": [
+      "Check funding",
+      ""
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-17T08:34:08.296708"
+  },
+  {
+    "id": "ec4d073ccd25",
+    "title": "KAIST University Scholarship 2027 in South Korea | Fully Funded",
+    "link": "https://www.opportunitiescircle.com/kaist-university-scholarship-in-south-korea/",
+    "summary": "Good news for those who want to study in South Korea! KAIST University Scholarship 2027 in South Korea is the perfect opportunity. KAIST University is offering fully funded scholarships in Korea for MS, MS-PhD and PhD programs. This Korean scholarship is an excellent opportunity for international students to pursue graduate and postgraduate studies in science and technology, innovation, and […]\nThe post KAIST University Scholarship 2027 in South Korea | Fully Funded appeared first on Opportunities Circle.",
+    "published": "Sun, 16 Aug 2026 13:30:09 +0000",
+    "source": "Opportunities Circle",
+    "raw_text": "kaist university scholarship 2027 in south korea | fully funded <p>good news for those who want to study in south korea! kaist university scholarship 2027 in south korea is the perfect opportunity. kaist university is offering fully funded scholarships in korea for ms, ms-phd and phd programs. this korean scholarship is an excellent opportunity for international students to pursue graduate and postgraduate studies in science and technology, innovation, and [&#8230;]</p>\n<p>the post <a href=\"https://www.opportunitiescircle.com/kaist-university-scholarship-in-south-korea/\">kaist university scholarship 2027 in south korea | fully funded</a> appeared first on <a href=\"https://www.opportunitiescircle.com\">opportunities circle</a>.</p>",
+    "eligible": false,
+    "score": 80,
+    "reason": "Rule-based: Missing:   degree type",
+    "highlights": [
+      "Fully funded",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Fully Funded",
+    "checked_at": "2026-08-17T08:34:08.958410"
   }
 ]
