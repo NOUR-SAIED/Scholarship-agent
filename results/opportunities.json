@@ -5198,5 +5198,25 @@
     "country": null,
     "funding_type": "Fully Funded",
     "checked_at": "2026-08-17T08:34:08.958410"
+  },
+  {
+    "id": "9b0f73c22b14",
+    "title": "The Emerging Leaders Foundation (ELF) Africa iLead Fellowship Program 2026 for young East Africans.",
+    "link": "https://www.opportunitiesforafricans.com/the-emerging-leaders-foundation-elf-africa-ilead-fellowship-program-2026/",
+    "summary": "Application Deadline: 31 August 2026. Applications are now open for the 2026 iLead Fellowship Program. The five-month fellowship is designed for young leaders aged 18 to 25 who are committed to personal…",
+    "published": "Mon, 17 Aug 2026 17:11:12 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "the emerging leaders foundation (elf) africa ilead fellowship program 2026 for young east africans. application deadline: 31 august 2026. applications are now open for the 2026 ilead fellowship program. the five-month fellowship is designed for young leaders aged 18 to 25 who are committed to personal&#8230;",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-18T08:26:23.970247"
   }
 ]
