@@ -5318,5 +5318,25 @@
     "country": null,
     "funding_type": "Unknown",
     "checked_at": "2026-08-19T08:27:10.559728"
+  },
+  {
+    "id": "141d43565ef3",
+    "title": "The African Union Enterprise Africa Network (EAN) Fellowship Programme 2026/2027 for youth- and women-led small enterprises.",
+    "link": "https://www.opportunitiesforafricans.com/the-african-union-enterprise-africa-network-ean-fellowship-programme-2026-2027/",
+    "summary": "Application Deadline: 30 September 2026 Applications are now open for the 2026/2027 African Union Enterprise Africa Network (EAN) Fellowship Programme. The Enterprise Africa Network (EAN) Fellowship Programme is an AUC…",
+    "published": "Wed, 19 Aug 2026 17:55:34 +0000",
+    "source": "Opportunities for Africans",
+    "raw_text": "the african union enterprise africa network (ean) fellowship programme 2026/2027 for youth- and women-led small enterprises. application deadline: 30 september 2026 applications are now open for the 2026/2027 african union enterprise africa network (ean) fellowship programme. the enterprise africa network (ean) fellowship programme is an auc&#8230;",
+    "eligible": false,
+    "score": 40,
+    "reason": "Rule-based: Missing:  funding degree type",
+    "highlights": [
+      "Check funding",
+      "Open to your nationality"
+    ],
+    "deadline": null,
+    "country": null,
+    "funding_type": "Unknown",
+    "checked_at": "2026-08-20T08:28:27.402007"
   }
 ]
