@@ -1,200 +1,99 @@
-# 🎓 ScholarAgent
+# 🧭 Opportunity Radar
 
-Fully automated scholarship finder for Tunisian students. Scans 5+ sources daily,
-filters opportunities using Gemini AI, and sends Telegram notifications.
-**100% free. No server. No credit card.**
+A personal agent that scans remote jobs, relocation roles, early-career programs and
+scholarships every morning, checks whether a **Tunisian candidate can actually get them**,
+and puts the results in a dashboard with an application tracker.
 
----
+Runs for **$0/month**: GitHub Actions (scheduler), Gemini free tier (classification),
+Supabase free tier (database), Streamlit Community Cloud (dashboard), Telegram (alerts).
 
-## ✨ What it does
+## What it does
 
-- Scans **Scholars4Dev, AfterSchool Africa, Opportunities Circle, Opportunities for Africans, UN Jobs** every day at 08:00 UTC
-- Pre-filters by keyword (fully funded, masters, alternance…)
-- Sends each candidate to **Gemini 1.5 Flash** (free) for intelligent eligibility checking against your profile
-- Falls back to rule-based filtering if no Gemini key is set
-- Sends you a **Telegram message** with new eligible opportunities
-- Commits results to `results/opportunities.json` in your repo
-
----
-
-## 🚀 Setup (15 minutes)
-
-### Step 1 — Fork this repository
-
-Click **Fork** at the top right of this page. This creates your own copy where the workflow will run.
-
----
-
-### Step 2 — Edit your profile
-
-Open `profile.json` and fill in your details:
-
-```json
-{
-  "name": "Your Name",
-  "nationality": "Tunisian",
-  "current_degree": "Bachelor",
-  "field": "Computer Science",
-  "gpa": "15",
-  "languages": ["Arabic", "French", "English"],
-  "target_degrees": ["Masters", "Alternance", "Apprenticeship"],
-  "countries": ["France", "Germany", "Europe", "Turkey"],
-  "notes": "Any extra context for the AI filter"
-}
+```
+Himalayas ─┐
+Jobicy     │                                     your saves/skips ──┐
+Remotive   ├─► skip known ─► free pre-filter ─► Gemini (+feedback) ─► Supabase ─► Streamlit dashboard
+Arbeitnow  │               (duplicates, not open   (path, eligibility,              └─► Telegram alerts
+RSS feeds ─┘                to Tunisia, off-profile) blockers, fit, deadline)
 ```
 
-Commit and push the change.
+Every opportunity gets an eligibility badge:
 
----
-
-### Step 3 — Get a free Gemini API key
-
-1. Go to [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
-2. Click **Create API key**
-3. Copy the key (starts with `AIza…`)
-
-> Gemini 1.5 Flash free tier: 15 requests/minute, 1500/day — more than enough.
-
----
-
-### Step 4 — Set up Telegram notifications (optional but recommended)
-
-**Create a bot:**
-1. Open Telegram → search **@BotFather**
-2. Send `/newbot` → follow prompts → copy the **bot token** (looks like `123456:ABC-DEF…`)
-
-**Get your chat ID:**
-1. Search **@userinfobot** in Telegram → send any message → copy your **id** number
-
----
-
-### Step 5 — Add secrets to GitHub
-
-In your forked repo: **Settings → Secrets and variables → Actions → New repository secret**
-
-| Secret name | Value |
+| Badge | Meaning |
 |---|---|
-| `GEMINI_API_KEY` | Your Gemini key (`AIza…`) |
-| `TELEGRAM_BOT_TOKEN` | Your bot token (`123456:ABC…`) |
-| `TELEGRAM_CHAT_ID` | Your Telegram user ID |
+| 🟢 Open to you | Explicitly worldwide, Africa/MENA, or all nationalities |
+| 🟡 Likely open | EMEA-remote, contractor-friendly, visa sponsorship or relocation offered |
+| 🟠 Unclear | Not stated. Worth a quick check |
+| 🔴 Blocked | US/EU work authorization, clearance, or nationals-only quotas (Saudization, Emiratization) |
 
-Only `GEMINI_API_KEY` is required. Telegram is optional.
+A US company is **not** blocked by default. Only an explicit legal requirement is.
 
----
+## Try it in 2 minutes (no keys)
 
-### Step 6 — Enable Actions & run manually
-
-1. Go to **Actions** tab in your repo
-2. Click **ScholarAgent Daily Scan**
-3. Click **Run workflow** → **Run workflow**
-
-The first run may take 2–3 minutes. Check the logs to see results!
-
-After that, it runs **automatically every day at 09:00 Tunisia time** (08:00 UTC).
-
----
-
-## 📁 Project structure
-
-```
-scholarship-agent/
-├── .github/
-│   └── workflows/
-│       └── daily-scan.yml     ← GitHub Actions schedule
-├── src/
-│   └── agent.py               ← Main agent script
-├── results/
-│   ├── opportunities.json     ← All results (auto-updated)
-│   └── seen_ids.json          ← Tracks already-notified opportunities
-├── profile.json               ← YOUR PROFILE — edit this
-├── requirements.txt
-└── README.md
+```bash
+pip install -r requirements.txt
+python -m src.pipeline --sample --no-ai
+streamlit run app.py
 ```
 
----
+## Run it for real
 
-## 📊 Understanding results
+1. **Profile:** edit `profile.json` (skills, target roles, languages). The AI scores everything against it.
+2. **Gemini key:** get a free key at https://aistudio.google.com/apikey. Copy `.env.example` to `.env` and fill it in.
+   Check AI Studio for which models are on the free tier and set `GEMINI_MODEL` accordingly.
+3. **Test locally:** `python -m src.pipeline --dry-run` fetches real sources and prints results without saving.
+   Then `python -m src.pipeline` and `streamlit run app.py`.
 
-Results are saved to `results/opportunities.json`. Each entry looks like:
+## The dashboard
 
-```json
-{
-  "id": "a3f9d2e1c4b8",
-  "title": "Erasmus Mundus Joint Masters",
-  "link": "https://...",
-  "source": "Scholars4Dev",
-  "eligible": true,
-  "score": 88,
-  "reason": "Open to Tunisian nationals. Fully funded with €1000/month stipend.",
-  "highlights": ["Fully funded", "Open to Tunisian nationals", "Monthly stipend"],
-  "deadline": "2025-01-15",
-  "funding_type": "Fully Funded",
-  "checked_at": "2024-12-01T08:12:34"
-}
-```
+- **⚡ Triage:** new matches one at a time, best fit first. Save, Skip, or Later. Clearing 30 takes a few minutes.
+- **Category tabs:** Remote, Relocation, Early-career programs, Scholarships, with filters for eligibility,
+  fit, seniority, paid-only and passed deadlines.
+- **📋 Tracker:** Saved → Applied → Interview → Offer, sorted by deadline, plus a list of everything the
+  scan filtered out and why, so you can check it isn't throwing away good stuff.
+- **Draft an application:** per opportunity, written from your real `experience` in `profile.json`.
+- **Source health** (sidebar): how many items each source returned on the last run. ⚠️ means a source
+  returned nothing, the kind of silent failure that broke v0.
 
-`score` is 0–100 match quality. Focus on scores above 65.
+**It learns from you.** Every save and skip is fed back to Gemini as examples on the next run, so
+scores drift toward what you actually go for.
 
----
+## Put it online
 
-## 🔍 Sources covered
+1. **Supabase** (free): create a project, run `supabase_schema.sql` in the SQL editor.
+   Copy the project URL and the **service_role** key (Settings → API). Keep that key secret.
+2. **GitHub repo secrets** (Settings → Secrets and variables → Actions):
+   `GEMINI_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+   Optional variables: `GEMINI_MODEL`, `DASHBOARD_URL`.
+3. **Streamlit Community Cloud:** deploy `app.py` from the repo, and add the same keys plus
+   `APP_PASSWORD` in the app's Secrets. The password matters: the dashboard can edit your data.
+4. **Actions tab → Daily opportunity scan → Run workflow** to test. It then runs every day at 07:00 Tunis time.
 
-| Source | Focus |
+## Commands
+
+| Command | What it does |
 |---|---|
-| **Scholars4Dev** | Developing countries, Masters, PhD, fully funded |
-| **AfterSchool Africa** | Africa/MENA, alternance, apprenticeships, internships |
-| **Opportunities for Africans** | African continent, all degree types |
-| **Opportunities Circle** | Global, Masters, fellowships |
-| **UN Jobs** | UN fellowships and internships |
+| `python -m src.pipeline --sample --no-ai` | Offline demo data |
+| `python -m src.pipeline --dry-run` | Real sources, print only |
+| `python -m src.pipeline --only himalayas rss` | Just some sources |
+| `python -m src.pipeline` | Full run: save + alert |
 
----
+## Adding a source
 
-## 🇹🇳 Top programs known to accept Tunisians
+Create `src/sources/yoursource.py` with a function returning `list[Opportunity]`, then register it in
+`src/sources/__init__.py`. A failing source logs an error and returns `[]`, so it never breaks the run.
 
-- **Erasmus Mundus** — EU, full funding, €1000/month stipend
-- **DAAD Germany** — Strong for STEM, developing-country track
-- **Stipendium Hungaricum** — Bilateral agreement with Tunisia via ministry
-- **Türkiye Bursları** — Very accessible, full package, monthly allowance
-- **Campus France** — French embassy scholarships for Tunisians
-- **Heinrich Böll Foundation** — Germany, social/environment focus
-- **OFPPT Alternance** — France, work-study, company pays salary
+## Design notes (what broke in v0 and how it's fixed)
 
----
+- **Empty feeds:** RSS sites blocked Python's default user agent and returned 0 entries silently.
+  Now: browser headers, retries, and a visible warning when a feed returns nothing.
+- **Lost alerts:** Telegram Markdown rejected titles containing `_`, `*` or `[`. Now: plain text.
+- **AI silently skipped:** JSON parsing broke on any preamble. Now: robust extraction + per-batch rule fallback.
+- **Free-tier limits:** opportunities are batched 8 per request, capped per run, and pre-filtered for free
+  before reaching Gemini. Unprocessed items are simply picked up the next day.
+- **Growing forever:** untouched items older than 60 days are pruned; anything you saved or applied to is kept.
 
-## ⚙️ Customizing
+## Roadmap
 
-**Add more RSS sources** — edit the `RSS_FEEDS` list in `src/agent.py`:
-```python
-{
-    "name": "My Source",
-    "url": "https://example.com/feed/",
-    "tags": ["scholarship", "masters"],
-},
-```
-
-**Change run schedule** — edit `.github/workflows/daily-scan.yml`:
-```yaml
-- cron: "0 8 * * *"   # daily at 08:00 UTC
-- cron: "0 8 * * 1"   # weekly, Mondays only
-- cron: "0 8 1 * *"   # monthly, 1st of each month
-```
-
-**Stricter funding filter** — in `src/agent.py`, change `pre_filter()` to require "fully funded" explicitly.
-
----
-
-## 🆓 Cost breakdown
-
-| Component | Cost |
-|---|---|
-| GitHub Actions | Free (2000 min/month) |
-| Gemini 1.5 Flash | Free (1500 calls/day) |
-| Telegram Bot API | Free |
-| RSS feeds | Free |
-| **Total** | **$0/month** |
-
----
-
-## 🤝 Contributing
-
-Found a good RSS source for Tunisian-eligible scholarships? Open a PR!
+- Gulf job boards (Bayt, GulfTalent) and La Bonne Alternance
+- Telegram buttons (save / skip / draft) that update the dashboard

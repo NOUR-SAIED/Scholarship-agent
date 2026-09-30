@@ -1,8 +1,8 @@
+.env
 __pycache__/
 *.pyc
-*.pyo
-.env
-.venv
+.streamlit/secrets.toml
+data/opportunities.json
+data/runs.json
+.venv/
 venv/
-*.egg-info/
-.DS_Store

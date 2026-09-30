@@ -1,0 +1,30 @@
+name: Daily opportunity scan
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 07:00 Tunis time (UTC+1)
+  workflow_dispatch: {}   # "Run workflow" button for manual tests
+# Note: GitHub pauses scheduled workflows after 60 days without commits to the repo.
+# If alerts stop, open the Actions tab and re-enable it (or push any small commit).
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: python -m src.pipeline

@@ -1,42 +1,46 @@
 {
-  "name": "Nourelhouda Saied",
+  "name": "Nour El Houda Saied",
+  "headline": "Junior Data Engineer, Data & AI Consulting",
   "nationality": "Tunisian",
-  "current_degree": "Engineering Degree",
-  "field": "Data Engineering and Artificial Intelligence",
-  "gpa": "",
-  "languages": ["Arabic", "French", "English", "German (Beginner)"],
-  "target_degrees": ["Master's", "Alternance", "Apprenticeship"],
-  "countries": ["France", "Germany", "Canada", "Belgium", "Netherlands", "Sweden", "Finland", "Austria", "Hungary", "Turkey"],
-  "technical_skills": [
-    "Python",
-    "SQL",
-    "Scala",
-    "Apache Spark",
-    "Airflow",
-    "dbt",
-    "Databricks",
-    "Machine Learning",
-    "NLP",
-    "Large Language Models",
-    "LangChain",
-    "RAG Systems",
-    "Docker",
-    "MLflow"
+  "residence": "Tunis, Tunisia",
+  "availability": "From November 2026",
+  "degree": "Engineering Degree in Data Engineering and Decisional Systems, National School of Electronics and Telecommunication of Sfax (2026)",
+  "languages": ["Arabic (native)", "English (C1, professional)", "French (advanced)"],
+  "certifications": ["Microsoft Fabric Data Engineer Associate", "DataCamp SQL Data Engineer Associate"],
+  "seniority": "entry-level / junior: 3 internships, graduating 2026, 0-2 years expected",
+
+  "target_roles": [
+    "data engineer", "analytics engineer", "etl developer", "bi engineer", "bi developer",
+    "data consultant", "data & ai consultant", "ai consultant", "analytics consultant",
+    "ai engineer", "llm engineer", "machine learning engineer", "ml engineer",
+    "data analyst", "data scientist", "data platform", "big data", "python developer"
   ],
-  "interests": [
-    "Data Engineering",
-    "Artificial Intelligence",
-    "Machine Learning",
-    "Data Science",
-    "Analytics",
-    "Cloud Data Platforms",
-    "Software Engineering"
+  "skills": [
+    "python", "sql", "java", "scala",
+    "airflow", "dbt", "spark", "pyspark", "kafka", "delta lake", "etl", "elt",
+    "dimensional modeling", "star schema", "data warehouse", "lakehouse",
+    "postgresql", "snowflake", "azure", "microsoft fabric", "databricks",
+    "docker", "git", "github actions", "ci/cd",
+    "langgraph", "langchain", "rag", "llm", "ollama", "scikit-learn", "xgboost",
+    "time series", "forecasting", "nlp", "spacy",
+    "power bi", "superset", "streamlit", "fastapi", "semantic layer",
+    "requirements gathering", "kpi", "agile", "scrum"
   ],
   "experience": [
-    "Built a RAG-based knowledge assistant using Confluence data",
-    "Designed ETL pipelines and data processing workflows",
-    "Developed exchange rate forecasting models using SARIMA and XGBoost",
-    "Created speaker recognition systems using Deep Learning"
+    "PFE, Data Engineer Intern at Scheidt & Bachmann Maghreb (Feb-Jul 2026): gathered requirements from non-technical users on a client account (Toronto Parking Authority) and turned them into functional requirements and governed KPIs over 6 agile sprints; built incremental watermark-tracked Airflow ELT pipelines loading ServiceNow data into a Bronze/Silver/Gold PostgreSQL star-schema warehouse (SCD2), validated by 34 dbt tests and 36 unit tests (93% coverage); built a Cube semantic layer serving an Apache Superset dashboard and a LangGraph AI copilot (local LLM, read-only validated queries); Docker and a 3-stage GitHub Actions CI/CD pipeline.",
+    "AI Intern at Scheidt & Bachmann Maghreb (Jul-Sep 2025): full-stack RAG application over Confluence (Streamlit, Ollama Mistral 7B, ChromaDB, Docker Compose microservices); cut query latency 90% (35s to 4s) by moving inference to GPU.",
+    "Data Science Intern at CNI Tunisia (Jun-Aug 2024): Dinar-Euro exchange-rate forecasting (SARIMA, Prophet, hybrid SARIMA-XGBoost), +15% forecast accuracy.",
+    "Project: real-time sales lakehouse with Kafka, Spark Structured Streaming and Delta Lake (event-time processing, watermarking).",
+    "Project: clinical data warehouse with NLP extraction (PostgreSQL, SpaCy, GLiNER), est. 40% less chart-review time."
   ],
-  "notes": "Seeking Master's programs, alternance opportunities, apprenticeships, and fully funded scholarships abroad. Interested in Data Engineering, AI, Machine Learning, Data Science, Analytics, and Software Engineering. Available after graduation. Open to opportunities across Europe and Canada."
+
+  "open_to": {
+    "remote": "Any company worldwide that can hire someone living in Tunisia (contractor is fine). Time shift is fine.",
+    "relocation": "Anywhere that sponsors visas or hires foreigners: France and Europe, Maghreb, Africa, Gulf / Middle East, Canada, Turkey.",
+    "early_career": "Graduate programs, traineeships, fellowships, alternance, apprenticeships, young professional programs, consulting graduate programs.",
+    "scholarships": "Fully funded Master's programs abroad."
+  },
+  "preferred_countries": ["France", "Belgium", "Germany", "Netherlands", "Canada", "Morocco", "UAE", "Qatar", "Saudi Arabia", "Turkey"],
+
+  "summary": "Junior data engineer with a consulting mindset: starts from the business need, gathers requirements from non-technical users, defines governed KPIs, then delivers end to end (Airflow/dbt pipelines, tested star-schema warehouse, semantic layer, dashboards, LLM copilot). Three internships across data engineering, AI and forecasting. Available from November 2026."
 }
