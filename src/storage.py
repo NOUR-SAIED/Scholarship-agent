@@ -98,7 +98,7 @@ class SupabaseStore:
         self.base = url.rstrip("/") + "/rest/v1/opportunities"
         self.h = {"apikey": key, "Content-Type": "application/json"}
         if key.startswith("eyJ"):  # legacy JWT keys also go in Authorization; new sb_secret_ keys must not
-            self.h["Authorization"] = f"Bearer {key}"
+            self.h["Authorization"] = " ".join(("Bearer", key))
 
     def _get(self, params: dict) -> list[dict]:
         rows, start = [], 0
