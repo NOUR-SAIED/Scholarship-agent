@@ -74,12 +74,27 @@ class JsonStore:
                 if v.get("status") not in ("new", "skipped") or v.get("found_at", "") >= cutoff}
         self._write(keep)
         return len(rows) - len(keep)
-
+def check_supabase_key(key: str):
+    """The public key can't write to the table (row-level security), which only shows up
+    later as a confusing 401. Catch it immediately with a clear message."""
+    import base64
+    wrong = "SUPABASE_KEY is the public key. Use the SECRET key: Supabase > Project Settings > API Keys."
+    if key.startswith("sb_publishable_"):
+        raise RuntimeError(wrong)
+    if key.startswith("eyJ"):
+        try:
+            payload = key.split(".")[1]
+            role = json.loads(base64.urlsafe_b64decode(payload + "=" * (-len(payload) % 4))).get("role")
+        except Exception:
+            return
+        if role != "service_role":
+            raise RuntimeError(wrong + f" (this key's role is '{role}', it must be 'service_role')")
 
 class SupabaseStore:
     name = "Supabase"
 
     def __init__(self, url: str, key: str):
+        check_supabase_key(key)
         self.base = url.rstrip("/") + "/rest/v1/opportunities"
         self.h = {"apikey": key, "Content-Type": "application/json"}
         if key.startswith("eyJ"):  # legacy JWT keys also go in Authorization; new sb_secret_ keys must not

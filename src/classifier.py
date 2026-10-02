@@ -21,6 +21,8 @@ For EACH opportunity decide:
   "early_career" (graduate program, traineeship, fellowship, internship, apprenticeship,
   alternance, young professionals program, funded bootcamp), "scholarship" (degree funding),
   or "irrelevant" (not something this candidate would apply to).
+  Roundup or listing posts that collect many openings ("30 jobs across Africa", "top 10 scholarships")
+  are "irrelevant": they are not one opportunity she can apply to.
 - badge: can THIS candidate (Tunisian citizen living in Tunisia) realistically be hired/accepted?
   "green"  = explicitly open worldwide, to Africa/MENA/Tunisia, or to all nationalities.
   "yellow" = probably open: EMEA/Europe-remote, contractor-friendly (Deel, Remote.com, invoicing),

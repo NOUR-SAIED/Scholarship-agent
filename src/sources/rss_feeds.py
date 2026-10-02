@@ -9,7 +9,7 @@ from ._http import get, strip_html
 # (name, [feed URLs, tried in order], category hint)
 FEEDS = [
     ("Opportunity Desk", ["https://opportunitydesk.org/feed/"], "early_career"),
-    ("Opportunity Desk (Africa)", ["https://opportunitydesk.org/category/search-by-region/africa/feed/"], "early_career"),
+
     ("Opportunities Circle", ["https://www.opportunitiescircle.com/feed/"], "early_career"),
 ]
 # Blocked from home connections in Sept 2026 (empty feed / bot protection). Uncomment to retry:
